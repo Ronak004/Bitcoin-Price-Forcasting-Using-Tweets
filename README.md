@@ -1,6 +1,6 @@
 # estimateBitcoin
 
-## This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on the relation between Bitcoin pricew and tweets involving it
+## This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on the relation between Bitcoin price and tweets involving it
 Please look at the Notebook provided to view the process and methodology behind our analysis
 
 ## Contributors
