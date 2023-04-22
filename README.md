@@ -9,7 +9,7 @@ Please look at the Notebook provided to view the process and methodology behind 
 - @apaditya7 - contributed machine learning, finding datasets and visualisation
 
 ## Problem definition
-Are we able to extimate how a particular tweet can influence the price of Bitcoin?
+Are we able to estimate how a particular tweet can influence the price of Bitcoin?
 
 ## Models Used
 Logistic regression
