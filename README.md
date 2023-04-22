@@ -12,7 +12,7 @@ Please look at the Notebook provided to view the process and methodology behind 
 Are we able to estimate how a particular tweet can influence the price of Bitcoin?
 
 ## Dataset
-We obtained the dataset from Kaggle, which contains over 300,000 tweets related to Bitcoin. We cleaned the dataset by removing duplicates, null values, URLs, mentions, and stop words. We also performed sentiment analysis on the cleaned tweet text using VADER and obtained sentiment scores for each tweet.
+We obtained the dataset from Kaggle, which contains over 160,000 rows of tweets tweets related to Bitcoin. We cleaned the dataset by removing duplicates, null values, URLs, mentions, and stop words. We also performed sentiment analysis on the cleaned tweet text using VADER and obtained sentiment scores for each tweet.
 
 ## Exploratory Data Analysis
 We explored the sentiment distribution in the dataset, identified commonly used words in positive and negative tweets, and established a weak positive correlation between sentiment scores and Bitcoin price.
@@ -20,14 +20,11 @@ We explored the sentiment distribution in the dataset, identified commonly used 
 ## Machine Learning
 We split the dataset into training and testing sets and used linear regression to predict the Bitcoin price based on sentiment scores. We used various performance metrics such as MAE, MSE, and R-squared to evaluate the model's performance.
 
-## Results
-Our linear regression model achieved an R-squared score of 0.026 and an MAE of 2461.34. Although the model's performance was not excellent, it provides a starting point for further analysis and improvement.
-
 ## Tools Used
-Python 3.9
-Jupyter Notebooks
-VADER package
-Coinbase API
+- Python 3.9
+- Jupyter Notebooks
+- VADER package
+- Coinbase API
 
 ## Conclusion
 This project demonstrates how sentiment analysis can be used to predict the price of Bitcoin based on Twitter data. The project also showcases various tools and techniques used in data science, such as cleaning data, performing exploratory analysis, and using machine learning models for prediction.
