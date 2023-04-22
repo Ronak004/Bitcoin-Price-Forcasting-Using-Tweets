@@ -5,7 +5,7 @@ Please look at the Notebook provided to view the process and methodology behind 
 
 ## Contributors
 - @arifspidey - contributed in cleaning,e xploratory analysis and machine learning
-- @ronakpahwa - contibuted project idea, finding datasets and presentation
+- @ronakpahwa - contibuted project idea, finding datasets,machine learning and presentation
 - @apaditya7 - contributed machine learning, finding datasets and visualisation
 
 ## Problem definition
