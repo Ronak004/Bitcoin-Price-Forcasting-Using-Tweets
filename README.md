@@ -18,7 +18,7 @@ We obtained the dataset from Kaggle, which contains over 160,000 rows of tweets 
 We explored the sentiment distribution in the dataset, identified commonly used words in positive and negative tweets, and established a weak positive correlation between sentiment scores and Bitcoin price.
 
 ## Machine Learning
-We split the dataset into training and testing sets and used linear regression to predict the Bitcoin price based on sentiment scores. We used various performance metrics such as MAE, MSE, and R-squared to evaluate the model's performance.
+We split the dataset into training and testing sets and used linear regression to predict the Bitcoin price based on sentiment scores. We used various performance metrics such as MSE, and R-squared to evaluate the model's performance.
 
 ## Tools Used
 - Python 3.9
