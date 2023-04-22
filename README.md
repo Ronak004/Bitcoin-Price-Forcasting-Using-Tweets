@@ -12,7 +12,7 @@ Please look at the Notebook provided to view the process and methodology behind 
 Are we able to estimate how a particular tweet can influence the price of Bitcoin?
 
 ## Models Used
-Logistic regression
+Linear regression
 
 ## Conclusion
 - Certain components of a tweet affect its influence, which can be positive or negative, based on the original sentiment of the tweet
