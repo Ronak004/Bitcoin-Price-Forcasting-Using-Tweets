@@ -22,7 +22,13 @@ We obtained the dataset from Kaggle, which contains over 160,000 rows of tweets 
 We explored the sentiment distribution in the dataset, identified commonly used words in positive and negative tweets, and established a weak positive correlation between sentiment scores and Bitcoin price and that the relationship between the two is highly complex.
 
 ## Machine Learning
-We split the dataset into training and testing sets and used linear regression to predict the Bitcoin price based on sentiment scores. We used various performance metrics such as MSE, and R-squared to evaluate the model's performance. However, these models have their limitations, and their accuracy is affected by various factors such as data quality, model assumptions, and the complexity of the relationship between the variables.
+We split the dataset into training and testing sets and used linear regression and neural network model to predict the Bitcoin price based on sentiment scores. We used various performance metrics such as MSE, and R-squared to evaluate the model's performance. However, these models have their limitations, and their accuracy is affected by various factors such as data quality, model assumptions, and the complexity of the relationship between the variables.
+Models Used
+- Linear Regression
+- Neural Network 
+
+## Neural Network Model
+To improve upon the performance of the linear regression model, we also trained a neural network using Keras. We experimented with various configurations of the neural network, including different numbers of layers and nodes, as well as different activation functions.
 
 ## Tools Used
 - Python 3.9
@@ -34,12 +40,14 @@ We split the dataset into training and testing sets and used linear regression t
 - Data collection and cleaning are essential for any data science project. In this project, we had to deal with missing data, incorrect data types, and inconsistent data formats. We learned that carefully cleaning and pre-processing the data is critical to obtaining accurate insights and predictions
 - We learned how to use VADER, a lexicon and rule-based sentiment analysis tool, to calculate the sentiment scores of tweets. VADER provides a quick and simple way to evaluate tweet sentiment, but it has its limitations, such as its inability to handle sarcasm and other forms of figurative language.
 - The Bitcoin market is highly volatile, and predicting its price is a complex task. While our linear regression model showed some promise in predicting Bitcoin prices, its accuracy was not sufficient for practical use.
+- In our analysis, we observed that the Neural Network model outperformed the Linear Regression model in terms of accuracy, with a lower mean squared error and a higher R-squared value on both the training and testing sets. However, we also observed that the Linear Regression model was able to provide more interpretable coefficients, which could be helpful in understanding the relationship between the predictors and the target variable.
 
 ## Recommendations
 Based on our analysis, we recommend the following:
 - Further exploration of the relationship between tweet sentiment and Bitcoin prices using more advanced techniques such as neural networks and other machine learning algorithms.
 - Consideration of additional factors such as news articles, social media posts, and economic indicators that may impact Bitcoin prices.
 - Ongoing monitoring of the Bitcoin market and analysis of market trends to inform future predictions.
+- Our findings suggest that more advanced machine learning techniques, such as neural networks, may be necessary for accurately predicting the price of Bitcoin in the highly volatile cryptocurrency market.
 
 ## Conclusion
 This project demonstrates how sentiment analysis can be used to predict the price of Bitcoin based on Twitter data. The project also showcases various tools and techniques used in data science, such as cleaning data, performing exploratory analysis, and using machine learning models for prediction.
